@@ -8,4 +8,4 @@ then annotation processor lib will retrieve those annotation's meta data to prod
 an lombok custom annotation handler to produce static method for annotation class at compile time.
 
 ## Annotation example
-the client to use annotations
+the client to use annotations. Use Java Decompiler to check generated "SingletonExample.class"
