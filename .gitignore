@@ -1,5 +1,37 @@
+#Maven
+target/
+*.releaseBackup
+
+# web application files
+#/web-app/WEB-INF
+
 # Compiled class file
 *.class
+
+# plugin release file
+/*.zip
+/*.zip.sha1
+ 
+# older plugin install locations
+/plugins
+/web-app/plugins
+/web-app/WEB-INF/classes
+ 
+# "temporary" build files
+target/
+out/
+build/
+
+# IDE support files
+.classpath
+.launch
+.project
+.settings
+*.launch
+*.tmproj
+ivy*
+eclipse
+.DS_Store
 
 # Log file
 *.log
