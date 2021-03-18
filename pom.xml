@@ -14,6 +14,7 @@
         <module>annotation-processor</module>
         <module>annotation-example</module>
         <module>annotation-ast</module>
+        <module>annotation-gem</module>
     </modules>
 
     <build>
